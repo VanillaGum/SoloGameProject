@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\human_spr</sprite>
+    <sprite>sprites\human_hitbox_attack</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,8 +17,9 @@
     <script>scripts\go_towards_scr.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\human_obj</object>
     <object>objects\player_spawner</object>
+    <object>objects\obj_human_hitbox</object>
+    <object>objects\human_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
