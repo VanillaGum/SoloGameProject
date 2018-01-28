@@ -32,6 +32,8 @@ contact=0;
 user_speed = 2;
 attack_cooldown = 0;
 hp = 10;
+maxhp = hp;
+hp_display = false;
 </string>
           </argument>
         </arguments>
@@ -77,7 +79,7 @@ hp = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (enemy_target == noone &amp;&amp; !instance_exists(enemy_target)) {
+            <string>if (enemy_target == noone || !instance_exists(enemy_target)) {
     enemy_target = find_closest_enemy_scr(team);   
 }else {
     if (point_distance(x,y,enemy_target.x,enemy_target.y) &lt;= 20) {
@@ -86,8 +88,10 @@ hp = 10;
             point_dis = point_distance(x,y,enemy_target.x,enemy_target.y);
             direction = point_direction(x,y,enemy_target.x,enemy_target.y);
             alarm[0] = 120;
-            var hit = instance_create(lengthdir_x(point_dis,direction),lengthdir_y(point_dis,direction),obj_human_hitbox);
+            var hit = instance_create(x+lengthdir_x(point_dis,direction),y+lengthdir_y(point_dis,direction),obj_human_hitbox);
             hit.direction = direction;
+            hit.target = enemy_target;
+            hit.dmg = 5;
             attack_cooldown = 1;
         }
     }else {
@@ -97,6 +101,52 @@ hp = 10;
 if (hp &lt;= 0) {
     instance_destroy(self);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp_display = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hp_display = true;
 </string>
           </argument>
         </arguments>
@@ -122,6 +172,9 @@ if (hp &lt;= 0) {
             <string>draw_self();
 if (color != noone) {
    image_blend = color;
+}
+if (hp_display == true) {
+    draw_hp_scr(hp,maxhp,6,6);
 }
 </string>
           </argument>

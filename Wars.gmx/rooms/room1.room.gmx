@@ -53,6 +53,9 @@
   <instances>
     <instance objName="human_obj" x="96" y="224" name="inst_F4F66B76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="human_obj" x="512" y="192" name="inst_316C918D" locked="0" code="team=1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player_spawner" x="64" y="512" name="inst_BAB5B0BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player_spawner" x="864" y="288" name="inst_65A02DE1" locked="0" code="team = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player_spawner" x="576" y="608" name="inst_AB922D96" locked="0" code="team = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
