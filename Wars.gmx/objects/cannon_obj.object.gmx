@@ -28,9 +28,39 @@
             <string>team = 0;
 hp = 50;
 
-//Display
+//For Use For Arrow Projectiless
+pull_back = 0;
 arrow_display = 0; //Set To 1 When Mouse Over This Object
 destroy_all = 0;
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///To Do
+/*
+Add Arrow Being Pulled Back
+Add Arrow Pulling Enemy Back?
+Add Cannon Max Limit Of Arrows
+Add Cooldown per arrow shot/reload
+*/
 </string>
           </argument>
         </arguments>

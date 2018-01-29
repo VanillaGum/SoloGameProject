@@ -28,7 +28,7 @@
     <object>objects\human_obj</object>
     <object>objects\object3</object>
     <object>objects\arrow_projectile</object>
-    <object>objects\canon_obj</object>
+    <object>objects\cannon_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>

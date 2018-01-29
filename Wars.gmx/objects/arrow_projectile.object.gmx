@@ -57,12 +57,6 @@ stuck_y = noone;
           <argument>
             <kind>1</kind>
             <string>if (instance_exists(parent)) {
-    if(speed &lt;= 5 &amp;&amp; speed &gt;0) {
-        speed -= 0.05;
-        if (speed &lt; 0) {
-            speed = 0;   
-        }
-    }
 }else {
     //Cannon Has Been Destroyed
     //instance_destroy(self);
@@ -182,7 +176,7 @@ if (binded != noone &amp;&amp; instance_exists(binded)) {
             <kind>1</kind>
             <string>///Speed Decrease
 if (instance_exists(parent)) {
-    if(speed &lt;= 5 &amp;&amp; speed &gt;0) {
+    if(speed &lt;= 5 &amp;&amp; speed &gt;0 &amp;&amp; parent.pull_back == 0) {
         speed -= 0.05;
         if (speed &lt; 0) {
             speed = 0;   
