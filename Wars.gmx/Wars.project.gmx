@@ -11,6 +11,8 @@
     <sprite>sprites\spr_healthbar</sprite>
     <sprite>sprites\spr_health_background</sprite>
     <sprite>sprites\spr_health_border</sprite>
+    <sprite>sprites\arrow</sprite>
+    <sprite>sprites\cannon</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,8 +26,12 @@
     <object>objects\player_spawner</object>
     <object>objects\obj_human_hitbox</object>
     <object>objects\human_obj</object>
+    <object>objects\object3</object>
+    <object>objects\arrow_projectile</object>
+    <object>objects\canon_obj</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <room>rooms\room1</room>
   </rooms>
   <help>

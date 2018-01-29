@@ -56,6 +56,27 @@
     <instance objName="player_spawner" x="64" y="512" name="inst_BAB5B0BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="player_spawner" x="864" y="288" name="inst_65A02DE1" locked="0" code="team = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="player_spawner" x="576" y="608" name="inst_AB922D96" locked="0" code="team = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="canon_obj" x="128" y="608" name="inst_2856C993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="128" y="576" name="inst_194C6D34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="160" y="608" name="inst_6F3F5BD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="160" y="576" name="inst_1A2C6B5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="576" name="inst_5F4C54B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="128" y="640" name="inst_F9379726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="608" name="inst_B9258AA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="608" name="inst_E22E7649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="160" y="640" name="inst_1E1CFD59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="128" y="640" name="inst_0AD45B11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="128" y="640" name="inst_F4AB4C96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_0BD5EEA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_8A757046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_69136117" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_E3DCE682" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_F1C3C396" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_D89C8DFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_1C49468E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_D951DCFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_C1043C5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="human_obj" x="96" y="640" name="inst_20C5B28B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

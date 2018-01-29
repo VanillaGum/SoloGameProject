@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>team = 0;
-alarm[0] = 180;
+spawner_time = 360;
+alarm[0] = spawner_time;
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,7 @@ alarm[0] = 180;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 180;
+            <string>alarm[0] = spawner_time;
 user = instance_create(x,y,human_obj);
 user.team = team;
 </string>
