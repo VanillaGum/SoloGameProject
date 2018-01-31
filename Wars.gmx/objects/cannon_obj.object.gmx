@@ -107,6 +107,7 @@ Add Cooldown per arrow shot/reload
           <argument>
             <kind>1</kind>
             <string>destroy_all = 0;
+pull_back = 0;
 </string>
           </argument>
         </arguments>
@@ -130,6 +131,7 @@ Add Cooldown per arrow shot/reload
           <argument>
             <kind>1</kind>
             <string>destroy_all = 1;
+pull_back = 1;
 </string>
           </argument>
         </arguments>
@@ -153,7 +155,7 @@ Add Cooldown per arrow shot/reload
           <argument>
             <kind>1</kind>
             <string>dir = point_direction(x,y,mouse_x,mouse_y);
-arrow_shot = instance_create(x,y,arrow_projectile);
+arrow_shot = instance_create(x,y,arrow_projectile_return);
 arrow_shot.direction = dir;
 arrow_shot.image_angle = dir;
 arrow_shot.parent = self.id;

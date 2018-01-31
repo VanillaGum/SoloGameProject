@@ -28,6 +28,7 @@
     <object>objects\human_obj</object>
     <object>objects\object3</object>
     <object>objects\arrow_projectile</object>
+    <object>objects\arrow_projectile_return</object>
     <object>objects\cannon_obj</object>
   </objects>
   <rooms name="rooms">

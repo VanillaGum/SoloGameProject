@@ -110,11 +110,12 @@ if (!instance_exists(binded)) {
             <kind>1</kind>
             <string>///If Parent Is Pulling Arrow Back
 if (instance_exists(parent)) {
-    if(parent.destroy_all == 1) {
+    if(parent.pull_back == 1) {
         if (instance_exists(binded)) {
             binded.hp -= 1;
         }
-        instance_destroy(self);
+        direction = point_direction(x,y,parent.x,parent.y);
+        speed = 5;
     }
 }
 </string>
@@ -183,6 +184,31 @@ if (instance_exists(parent)) {
         }
     }
 }   
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="cannon_obj">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (other.id == parent &amp;&amp; parent.pull_back == 1) {
+    instance_destroy(self);
+}
 </string>
           </argument>
         </arguments>
