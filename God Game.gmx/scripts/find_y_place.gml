@@ -17,7 +17,7 @@ while (exitLoop == false) {
         //Found Spot To Place Object
         y = locy;
         exitLoop = true;
-        move_snap(64,1)
+        move_snap(16,1)
     }else {
         if (lookDown == true ) {
             if(!place_meeting(locx,locy, obj_floor)) {
