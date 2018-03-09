@@ -20,9 +20,11 @@
     <object>objects\placed_parent</object>
     <object>objects\obj_block</object>
     <objects name="Object For Placing">
-      <object>objects\placing_parent</object>
       <object>objects\obj_block_plc</object>
+      <object>objects\placing_parent</object>
     </objects>
+    <object>objects\obj_player_cash</object>
+    <object>objects\obj_add_money</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
